@@ -222,6 +222,10 @@ fieldset .text-display {
   color: #fff;
 }
 
+.white-bg-color {
+  background-color: #fff;
+}
+
 textarea {
   height: 8em;
   width: 25em;
