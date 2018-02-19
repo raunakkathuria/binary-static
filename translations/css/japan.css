@@ -82,6 +82,15 @@ table {
   text-align: center;
 }
 
+.buorg {
+  color: #000;
+}
+
+@media screen and (max-width: 1199px) {
+  body .buorg {
+    font-size: 0.8695652174rem;
+  }
+}
 body {
   overflow-x: hidden;
   width: 100%;
@@ -419,6 +428,11 @@ form .signup-form-success p, form .signup-form-error p {
   padding-top: 0;
   padding-bottom: 0;
 }
+@media (min-width: 480px) and (max-width: 575px) {
+  .intro {
+    padding-top: 50px;
+  }
+}
 .intro:before {
   position: absolute;
   content: '';
@@ -464,16 +478,26 @@ form .signup-form-success p, form .signup-form-error p {
 @media (min-width: 576px) and (max-width: 768px) {
   .intro .intro-text.intro-text {
     font-size: 50px;
+    margin-top: 60px;
   }
 }
 @media (max-width: 575px) {
   .intro .intro-text.intro-text {
     font-size: 36px;
     white-space: pre-wrap;
+    max-width: 245px;
     text-align: center;
     margin-top: -20px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (max-width: 575px) and (orientation: landscape) {
+  .intro .intro-text.intro-text {
+    white-space: nowrap;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 .intro .intro-subtext {
@@ -723,7 +747,7 @@ form .signup-form-success p, form .signup-form-error p {
 }
 .card .card-body .color-gray, .card .card-footer .color-gray {
   /* stylelint-disable color-no-hex */
-  color: #d2d3dd;
+  color: #6e7287;
   /* stylelint-enable color-no-hex */
 }
 .card .card-body .bg-gray, .card .card-footer .bg-gray {
@@ -902,7 +926,7 @@ form .signup-form-success p, form .signup-form-error p {
 }
 .card--light .card-body .color-gray, .card--light .card-footer .color-gray {
   /* stylelint-disable color-no-hex */
-  color: #d2d3dd;
+  color: #6e7287;
   /* stylelint-enable color-no-hex */
 }
 .card--light .card-body .bg-gray, .card--light .card-footer .bg-gray {
