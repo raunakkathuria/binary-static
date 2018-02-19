@@ -207,9 +207,15 @@ fieldset legend {
   font-weight: bold;
   text-transform: capitalize;
 }
+fieldset legend + .hint {
+  padding-left: 1em;
+}
 fieldset .text-display {
   /* TODO: replace all occurrences of id with the class */
   line-height: 25px;
+}
+fieldset #geocode_error {
+  margin: 5px 15px;
 }
 
 .error-msg {
