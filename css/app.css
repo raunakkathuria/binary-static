@@ -2088,14 +2088,3 @@ a.previous-wrapper:hover {
     padding: 10px 15px;
   }
 }
-.ico-claim-form-content p {
-  font-size: 0.8695652174rem;
-}
-.ico-claim-form-content ol li {
-  font-size: 0.8695652174rem;
-}
-.ico-claim-form-content input[disabled='disabled'] {
-  background: #f2f2f2;
-  font-weight: 900;
-  width: 200px;
-}
