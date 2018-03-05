@@ -707,6 +707,10 @@ li strong.margin-right {
   padding: 7px 5px !important;
 }
 
+.no-capitalize > a {
+  text-transform: none !important;
+}
+
 label + input {
   margin-left: 5px;
 }
