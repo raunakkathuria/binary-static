@@ -57,6 +57,12 @@
   .affiliates_faq h3:not(:first-of-type) {
     margin-top: 3rem; }
 
+@media screen and (max-width: 480px) {
+  .affiliates_faq .sidebar-container {
+    margin-bottom: 2rem; }
+    .affiliates_faq .sidebar-container .sidebar a {
+      line-height: 2.5rem; } }
+
 .affiliates h2 {
   margin-top: 30px; }
 
